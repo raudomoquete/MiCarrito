@@ -22,6 +22,7 @@ namespace MiCompra.Core.Models
         public string Category { get; set; }
         public string Image { get; set; }
 
+        //Instancia del producto que automaticamente genera un Id
         public Product()
         {
             this.Id = Guid.NewGuid().ToString();
